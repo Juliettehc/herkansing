@@ -1,0 +1,258 @@
+body {
+    background-image: url('../content/achtergrond_1_adobe_stock_823670847.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 100vh;
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+header img:first-of-type {
+    height: 6vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 3em;
+}
+
+.highlight {
+    color: #99ff00; 
+    font-style: italic; 
+  }
+
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    gap: 1.5em;
+}
+
+header nav ul a {
+    text-decoration: none;
+    padding: 1em;
+    background-color: white;
+    border-radius: 2em;
+    color: black;
+}
+
+header nav ul a:hover {
+    background: #99ff00;
+}
+
+a {
+    transition: background-color 0.3s ease, color 0.3s ease; /* Algemeen voor alle links */
+}
+
+
+main {
+    padding: 2em;
+    margin: 0 auto;
+    max-width: 50em;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    text-align: center;
+    border-radius: 0.7em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+main section {
+    margin-top: 1.5em;
+    padding: 1.5em;
+    background-color: rgba(255, 255, 255, 0.405); 
+    border-radius: 0.5em;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+}
+
+main section h2 {
+    color: #99ff00; 
+    font-size: 1.5em;
+    margin-bottom: 1em;
+}
+
+main section ul li {
+    font-size: 1em;
+    color: white;
+    margin-bottom: 0.8em;
+}
+
+main h1{
+    font-size: 3em;
+}
+
+main section p a {
+    background-color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+    color: black;
+    font-weight: bold;
+}
+
+main section p a:hover {
+    background: #99ff00;
+    color: black;
+}
+
+main p a {
+    text-decoration: underline;
+    color: white;
+}
+
+.products {
+    display: flex;
+    gap: 2em;
+    margin-top: 1.5em;
+    justify-content: center;
+}
+
+.product {
+    text-align: center;
+    max-width: 150px;
+}
+
+.product img {
+    width: 100%;
+    border-radius: 0.5em;
+}
+
+.product p {
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    color: white;
+}
+
+.afleveringen {
+    display: flex;
+    flex-direction: column; 
+    gap: 1.5em; 
+    margin-top: 1.5em;
+}
+
+article {
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+
+article:hover {
+    transform: scale(1.02); 
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.4); 
+}
+
+article h3 {
+    color: #99ff00; 
+    font-size: 1.2em;
+    margin-bottom: 0.3em;
+}
+
+
+article a {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 0.3em 0.8em;
+    border-radius: 2em;
+    font-weight: bold;
+}
+
+article a:hover {
+    background-color: #99ff00;
+}
+
+
+/* Bronnen link onderin geplaatst met behulp van vicki en Walter */
+
+footer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 0.7em;
+}
+
+footer nav {
+    display: flex;
+    justify-content: center; 
+    gap: 1em; 
+}
+
+footer a {
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: 1em;
+    text-decoration: underline;
+}
+
+
+footer a img {
+    height: 45px;
+}
+
+/* Mijn zus heeft mij geholpen en deze website: https://www.handleidinghtml.nl/html/formulieren/formulieren01.html?utm_source=chatgpt.com */
+
+.login-container {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 2em;
+    margin: 2em auto;
+    max-width: 25em;
+    border-radius: 0.7em;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.login-container h1 {
+    color: black;
+    margin-bottom: 1em;
+}
+
+.login-container label {
+    display: block;
+    text-align: left;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+    color: black;
+}
+
+.login-container input {
+    width: 100%;
+    padding: 0.7em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+    font-size: 1em;
+}
+
+.login-container button {
+    background-color: white;
+    color: black;
+    padding: 0.7em 2em;
+    border: none;
+    border-radius: 0.5em;
+    font-size: 1.2em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+    background-color: #99ff00;
+}
